@@ -13,7 +13,7 @@ struct StartButtonView: View {
     var action: () -> Void
     
     var body: some View {
-        Button(action: action ){
+        Button(action: action){
             Text(title)
                 .font(.title)
                 .fontWeight(.bold)
